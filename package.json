@@ -1,8 +1,8 @@
 {
-  "name": "ts-express-starter",
+  "name": "nigerian-phone-number-validator",
   "version": "1.0.0",
-  "description": "TS Module Starter",
-  "main": "dist/index.js",
+  "description": "Small utility for validating and sanitizing nigerian phone numbers",
+  "main": "lib/index.js",
   "scripts": {
     "start": "npm run build",
     "test": "jest --watch",
@@ -14,7 +14,7 @@
     "prepare": "npm run build"
   },
   "author": "Peter Iyiola",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "husky": "^3.0.0",
@@ -26,9 +26,32 @@
     "typescript": "^3.5.2"
   },
   "dependencies": {},
+  "files": [
+    "lib/**/*"
+  ],
   "husky": {
     "hooks": {
       "pre-commit": "npm run lint && npm run format && npm run build"
     }
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyiolapeter/nigerian-phone-number-validator.git"
+  },
+  "keywords": [
+    "Nigeria",
+    "Phone",
+    "Number",
+    "Validator",
+    "Validation",
+    "Sanitizing",
+    "Typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/iyiolapeter/nigerian-phone-number-validator/issues"
+  },
+  "homepage": "https://github.com/iyiolapeter/nigerian-phone-number-validator#readme"
 }
