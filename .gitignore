@@ -1,0 +1,8 @@
+node_modules
+dist
+logs
+application
+*.env
+.DS_Store
+*.gql
+/coverage
